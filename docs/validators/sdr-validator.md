@@ -114,18 +114,18 @@ Evaluate each hard gate. A gate is PASS only if the requirement is fully and una
 
 ## Validation Outcome Rules
 
-* **Any blocking issue -> FAIL**
-* **No blocking issues -> PASS**
-* Warnings do not block approval but should be addressed
+- **Any blocking issue -> FAIL**
+- **No blocking issues -> PASS**
+- Warnings do not block approval but should be addressed
 
 ---
 
 ## Non-Goals of the Validator
 
-* Judging whether the decision is correct or wise
-* Evaluating the quality of the rationale
-* Comparing the selected option against alternatives
-* Verifying stakeholder signatures are genuine
+- Judging whether the decision is correct or wise
+- Evaluating the quality of the rationale
+- Comparing the selected option against alternatives
+- Verifying stakeholder signatures are genuine
 
 ---
 

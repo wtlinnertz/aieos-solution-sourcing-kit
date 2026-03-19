@@ -31,6 +31,19 @@ If the frozen SOER or frozen DPRD is absent, stop. State what is missing. Do not
 
 ---
 
+## Elicitation Protocol (Pre-Generation)
+
+Before generating, apply at least one elicitation technique from `aieos-governance-foundation/docs/elicitation-protocol.md`.
+
+Recommended technique for this artifact: **Assumption Surfacing**.
+
+After applying the technique, record the result as a Markdown comment at the end of the generated artifact:
+<!-- Elicitation: Assumption Surfacing applied. Key insight: {one sentence}. -->
+
+If the technique surfaces a gap or conflict, address it in the generation or flag it in the artifact's Risk Summary section. Do not suppress findings.
+
+---
+
 ## Intent Verification — Confirm Before Generating
 
 Before generating evaluation content, restate the following from the upstream inputs:
