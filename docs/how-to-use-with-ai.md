@@ -1,6 +1,6 @@
 # How to Use This Kit with AI
 
-This guide explains how to set up AI sessions for each step in the Solution Sourcing Kit workflow. Follow the session setup instructions precisely — incorrect session setup is the most common cause of poor artifact quality.
+This guide explains how to set up AI sessions for each step in the Solution Sourcing Kit workflow. Follow the session setup instructions precisely. Incorrect session setup is the most common cause of poor artifact quality.
 
 ---
 
@@ -8,15 +8,14 @@ This guide explains how to set up AI sessions for each step in the Solution Sour
 
 **One artifact per session.** Do not generate multiple artifacts in the same session.
 
-**Separate generation and validation.** Always validate in a new session. Never ask the AI that generated an artifact to validate it — this produces self-validation bias.
+**Separate generation and validation.** Always validate in a new session. Never ask the AI that generated an artifact to validate it. This produces self-validation bias.
 
 **Include full frozen documents.** Do not summarize upstream artifacts. Provide the complete document.
 
----
 
-## SOER — Human-Authored (No AI Generation Session)
+## SOER. Human-Authored (No AI Generation Session)
 
-The SOER is human-authored. Do not use AI to generate it. The value of the SOER depends on the evaluator's market knowledge and organizational context — information that cannot be reliably generated.
+The SOER is human-authored. Do not use AI to generate it. The value of the SOER depends on the evaluator's market knowledge and organizational context. Information that cannot be reliably generated.
 
 AI can assist with research (identifying potential vendors, summarizing product capabilities from documentation), but the SOER itself is completed by the sourcing evaluator.
 
@@ -33,9 +32,8 @@ Do not suggest improvements. Judge only what is explicitly present.
 Output JSON using the format defined in the validator."
 ```
 
----
 
-## VER — Generation Session
+## VER. Generation Session
 
 The VER structures and compares the candidates identified in the SOER. AI is well-suited to this task because it involves systematic comparison against consistent criteria.
 
@@ -55,7 +53,7 @@ Follow the prompt in docs/prompts/ver-prompt.md.
 Use the template exactly. Satisfy all hard gates in the spec.
 Evaluate all shortlisted candidates from the SOER.
 Apply scoring criteria consistently across all candidates.
-Do not invent evaluation data — mark any missing information
+Do not invent evaluation data. Mark any missing information
 with [MISSING: reason]. Output pure Markdown."
 ```
 
@@ -80,9 +78,8 @@ Do not suggest improvements. Judge only what is explicitly present.
 Output JSON using the format defined in docs/validators/ver-validator.md."
 ```
 
----
 
-## SDR — Generation Session
+## SDR. Generation Session
 
 The SDR records a human decision with AI-generated formal documentation. The human provides the decision and rationale; the AI structures it according to the template and grounds it in VER evidence.
 
@@ -92,7 +89,7 @@ Documents to provide:
 1. Frozen VER (full document)
 2. Frozen SOER (full document)
 3. Frozen DPRD (full document)
-4. Human-provided sourcing decision (Build, Buy, or Adopt — with named selection)
+4. Human-provided sourcing decision (Build, Buy, or Adopt. With named selection)
 5. Human-provided decision rationale
 6. docs/specs/sdr-spec.md
 7. docs/artifacts/sdr-template.md
@@ -101,7 +98,7 @@ Prompt:
 "Generate a Sourcing Decision Record using the provided inputs.
 Follow the prompt in docs/prompts/sdr-prompt.md.
 Use the template exactly. Satisfy all hard gates in the spec.
-The sourcing decision is: [BUILD/BUY/ADOPT — state the human decision].
+The sourcing decision is: [BUILD/BUY/ADOPT. State the human decision].
 The rationale is: [state the human rationale].
 Ground the rationale in VER evidence.
 Document downstream implications for EEK.
@@ -130,7 +127,6 @@ Do not suggest improvements. Judge only what is explicitly present.
 Output JSON using the format defined in docs/validators/sdr-validator.md."
 ```
 
----
 
 ## Troubleshooting
 

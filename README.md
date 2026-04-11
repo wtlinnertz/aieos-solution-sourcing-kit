@@ -4,19 +4,15 @@
 
 This kit governs the Build/Buy/Adopt decision for an initiative after the Product Intelligence Kit (Layer 2) defines what is needed via a frozen Discovery PRD. It produces a Sourcing Decision Record that routes the initiative to the Engineering Execution Kit with clear sourcing intent.
 
----
+## What this kit does
 
-## What This Kit Does
-
-The Product Intelligence Kit (Layer 2) defines what the organization needs. But "what we need" does not automatically mean "what we build." This kit governs the gap:
+The Product Intelligence Kit (Layer 2) defines what the organization needs. But "what we need" doesn't automatically mean "what we build." This kit fills that gap:
 
 - **Sourcing options identification** — What options exist? Build from scratch, buy a commercial product, adopt an open-source solution, or some hybrid?
 - **Vendor/solution evaluation** — How do candidates compare on cost, risk, fit, integration complexity, and long-term viability?
 - **Sourcing decision** — Which option best serves the organization, and what are the implications for downstream engineering?
 
----
-
-## Artifact Types
+## Artifact types
 
 This kit produces three governed artifact types:
 
@@ -28,9 +24,7 @@ This kit produces three governed artifact types:
 
 Each governed artifact type has exactly four governing files: spec, template, prompt, validator.
 
----
-
-## When to Use This Kit
+## When to use this kit
 
 Use SSK when any of the following are true:
 
@@ -49,17 +43,13 @@ SSK is optional. Skip it when:
 
 When skipping SSK, the justification must be documented in the EEK Kit Entry Record (KER). The fast-path bypasses SSK entirely and proceeds from frozen DPRD directly to EEK.
 
----
-
-## Quick Start
+## Quick start
 
 1. Read `docs/playbook.md` — the complete process definition
 2. Read `docs/how-to-use-with-ai.md` — session setup and AI tool guidance
 3. See `examples/` — worked examples (initially empty; to be populated)
 
----
-
-## Repository Structure
+## Repository structure
 
 ```
 docs/
@@ -80,9 +70,7 @@ tests/                 # Structural integrity checks
 CLAUDE.md              # AI operating instructions
 ```
 
----
-
-## AIEOS Layer
+## AIEOS layer
 
 | Layer | Kit | Status |
 |-------|-----|--------|

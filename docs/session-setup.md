@@ -1,6 +1,6 @@
-# Solution Sourcing Kit — Session Setup
+# Solution Sourcing Kit: Session Setup
 
-This document provides per-artifact session setup checklists for AI-assisted work in the Solution Sourcing Kit.
+This document provides per-artifact session setup checklists for work in the Solution Sourcing Kit.
 
 ---
 
@@ -15,7 +15,7 @@ Before starting any AI session for SSK work:
 
 ---
 
-## SOER — Human-Authored (No AI Generation Session)
+## SOER: Human-Authored (No AI Generation Session)
 
 The SOER is human-authored. Do not use AI to generate it. Complete the template yourself using information from the frozen DPRD, market research, and organizational context.
 
@@ -34,7 +34,7 @@ Output JSON using the format defined in the validator."
 
 ---
 
-## VER — Generation Session
+## VER: Generation Session
 
 **Session setup:**
 ```
@@ -52,7 +52,7 @@ Follow the prompt in docs/prompts/ver-prompt.md.
 Use the template exactly. Satisfy all hard gates in the spec.
 Evaluate all shortlisted candidates from the SOER.
 Apply scoring criteria consistently across all candidates.
-Do not invent evaluation data — mark any missing information
+Do not invent evaluation data: mark any missing information
 with [MISSING: reason]. Output pure Markdown."
 ```
 
@@ -79,7 +79,7 @@ Output JSON using the format defined in docs/validators/ver-validator.md."
 
 ---
 
-## SDR — Generation Session
+## SDR: Generation Session
 
 **Session setup:**
 ```
@@ -87,7 +87,7 @@ Documents to provide:
 1. Frozen VER (full document)
 2. Frozen SOER (full document)
 3. Frozen DPRD (full document)
-4. Human-provided sourcing decision (Build, Buy, or Adopt — with named selection)
+4. Human-provided sourcing decision (Build, Buy, or Adopt: with named selection)
 5. Human-provided decision rationale
 6. docs/specs/sdr-spec.md
 7. docs/artifacts/sdr-template.md
@@ -96,7 +96,7 @@ Prompt:
 "Generate a Sourcing Decision Record using the provided inputs.
 Follow the prompt in docs/prompts/sdr-prompt.md.
 Use the template exactly. Satisfy all hard gates in the spec.
-The sourcing decision is: [BUILD/BUY/ADOPT — state the human decision].
+The sourcing decision is: [BUILD/BUY/ADOPT: state the human decision].
 The rationale is: [state the human rationale].
 Ground the rationale in VER evidence.
 Document downstream implications for EEK.
