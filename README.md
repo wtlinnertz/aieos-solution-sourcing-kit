@@ -76,7 +76,7 @@ CLAUDE.md              # AI operating instructions
 |-------|-----|--------|
 | 2. Product Intelligence | `aieos-product-intelligence-kit` | Built |
 | **3. Solution Sourcing** | **`aieos-solution-sourcing-kit`** | **Built** |
-| 4. Engineering Execution | `aieos-engineering-execution-kit` | Built |
+| 4. Engineering Execution | `aieos-engineering-execution` | Built |
 | 5. Release & Exposure | `aieos-release-exposure-kit` | Built |
 | 6. Reliability & Resilience | `aieos-reliability-resilience-kit` | Built |
 | 7. Insight & Evolution | `aieos-insight-evolution-kit` | Built |
