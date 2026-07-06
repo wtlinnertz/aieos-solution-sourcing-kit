@@ -34,7 +34,6 @@ The playbook defines when SSK can be skipped (fast-path). If your organization r
 
 The SDR records a human decision. If your organization requires specific approval authorities for sourcing decisions (e.g., CTO approval for Buy decisions above a threshold, architecture review board approval for Adopt decisions), document those authority requirements in your principles files.
 
-
 ## What Not to Adapt
 
 ### Specs
@@ -51,7 +50,6 @@ Validators evaluate against specs. If a validator is producing unexpected result
 
 `docs/governance-model.md` is a synchronized copy of the canonical governance model. Do not edit it. If you believe the governance model should change, update `aieos-governance-foundation/governance-model.md` and sync all kit copies.
 
-
 ## Adding Evaluation Dimensions
 
 If your organization needs additional evaluation dimensions beyond the defaults, follow this process:
@@ -62,7 +60,6 @@ If your organization needs additional evaluation dimensions beyond the defaults,
 4. Update the VER validator to check the dimension is present and populated
 
 Register the change in the VER spec's version history.
-
 
 ## Tool Bindings
 
@@ -78,7 +75,6 @@ docs/bindings/
 ```
 
 Bindings are not governed artifacts. They have no spec, validator, or prompt. update them when your tooling changes without touching the governed files.
-
 
 ## First-Time Setup Checklist
 
