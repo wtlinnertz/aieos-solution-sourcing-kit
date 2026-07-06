@@ -12,7 +12,6 @@ This guide explains how to set up AI sessions for each step in the Solution Sour
 
 **Include full frozen documents.** Do not summarize upstream artifacts. Provide the complete document.
 
-
 ## SOER. Human-Authored (No AI Generation Session)
 
 The SOER is human-authored. Do not use AI to generate it. The value of the SOER depends on the evaluator's market knowledge and organizational context. Information that cannot be reliably generated.
@@ -31,7 +30,6 @@ Use only the spec as the source of truth for pass/fail criteria.
 Do not suggest improvements. Judge only what is explicitly present.
 Output JSON using the format defined in the validator."
 ```
-
 
 ## VER. Generation Session
 
@@ -77,7 +75,6 @@ Use only the spec as the source of truth for pass/fail criteria.
 Do not suggest improvements. Judge only what is explicitly present.
 Output JSON using the format defined in docs/validators/ver-validator.md."
 ```
-
 
 ## SDR. Generation Session
 
@@ -126,7 +123,6 @@ Use only the spec as the source of truth for pass/fail criteria.
 Do not suggest improvements. Judge only what is explicitly present.
 Output JSON using the format defined in docs/validators/sdr-validator.md."
 ```
-
 
 ## Troubleshooting
 
