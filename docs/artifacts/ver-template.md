@@ -7,10 +7,11 @@
 | Field | Value |
 |-------|-------|
 | Artifact ID | VER-{INITIATIVE}-{NNN} |
+| Owner | {owner} |
 | Initiative | {name} |
 | Date | {YYYY-MM-DD} |
 | Author | {name/role} |
-| Status | Draft / Validated / Freeze Pending / Frozen |
+| Status | DRAFT |
 | SOER Reference | {SOER-{INITIATIVE}-{NNN}} |
 | Governance Model Version | {from governance-model.md §15} |
 | Prompt Version | {from prompt file version header, or N/A for human-authored} |

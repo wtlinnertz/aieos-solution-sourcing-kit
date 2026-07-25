@@ -7,10 +7,11 @@
 | Field | Value |
 |-------|-------|
 | Artifact ID | SDR-{INITIATIVE}-{NNN} |
+| Owner | {owner} |
 | Initiative | {name} |
 | Date | {YYYY-MM-DD} |
 | Author | {name/role} |
-| Status | Draft / Validated / Freeze Pending / Frozen |
+| Status | DRAFT |
 | VER Reference | {VER-{INITIATIVE}-{NNN}} |
 | SOER Reference | {SOER-{INITIATIVE}-{NNN}} |
 | Governance Model Version | {from governance-model.md §15} |
